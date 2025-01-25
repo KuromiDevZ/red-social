@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UTM HELP</title>
+    <link rel="stylesheet" href="styles.css">
+     <!-- <script defer src="script.js"></script> -->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Mi Aplicacióoooon</h1>
+            </div>
+            <ul class="nav-links">
+                <!-- Cambié la ruta para la página de inicio -->
+                <li><a href="/">Iniciooo</a></li>
+                <li><a href="home.html">home</a></li>
+                <!-- Cambié la ruta para los usuarios, asumiendo que también está en public -->
+                <li><a href="usuario.html">Usuarios</a></li>
+                <!-- La ruta para los proyectos parece estar bien -->
+                <li><a href="proyecto.html">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="main-content">
+        <h2>Bienvenido a nuestra plataforma</h2>
+        <p>Explora nuestras funcionalidades y mantente al día con nuestros proyectos y usuarios.</p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>Usuarios</h3>
+                <p>Visualiza y gestiona a los usuarios registrados.</p>
+                <button onclick="window.location.href='/api/usuarios'">Ver Usuarios</button>
+            </div>
+            <div class="card">
+                <h3>Proyectos</h3>
+                <p>Accede y administra los proyectos disponibles.</p>
+                <button onclick="window.location.href='/api/proyectos'">Ver Proyectos</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Mi Aplicación. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>

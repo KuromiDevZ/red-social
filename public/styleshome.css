@@ -1,0 +1,119 @@
+/* Contenedor principal */
+.home-container {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Barra superior */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e6ffe6;
+    padding: 10px 20px;
+    border-bottom: 2px solid #c4f2c4;
+  }
+  
+  .profile-button {
+    background: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .search-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-input {
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .search-button {
+    background-color: #8c8cff;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  /* Contenido principal */
+  .main-content {
+    display: flex;
+    margin: 20px;
+  }
+  
+  /* Sidebar */
+  .sidebar {
+    flex: 1;
+    background-color: #f7f7f7;
+    padding: 15px;
+    border-right: 2px solid #ccc;
+  }
+  
+  .sidebar nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar nav li {
+    margin: 10px 0;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  /* Tarjeta de contenido */
+  .content-card {
+    flex: 3;
+    background-color: #f0fff0;
+    border: 2px solid #cceccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-title {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .card-image img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .read-more {
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
